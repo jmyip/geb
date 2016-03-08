@@ -722,7 +722,8 @@ header.navigation {
     display: block;
     margin: 0.4em;
     padding: 2em 2em 3em 2em;
-    text-decoration: none; }
+    text-decoration: none;
+    min-height: 300px; }
     .flex-boxes .flex-box .flex-title {
       color: rgba(51, 51, 51, 0.7);
       font-size: 1.2em;

@@ -38,6 +38,8 @@
     padding: 2em 2em 3em 2em;
     text-decoration: none;
 
+    min-height: 300px;
+
     // @for $i from 1 to 7 { // assign colors from $flex-box-top-colors list
     //   &:nth-child(#{$i}) {
     //     $color-from-list: nth($flex-box-top-colors, $i);
