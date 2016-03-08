@@ -155,22 +155,6 @@ table {
 	}
 
 
-//dark overlay
-
-.image-gradient-dynamic {
-  $image-gradient-color-top: #000;
-  $transparency-top: 0.9;
-  $image-gradient-color-bottom: white;
-  $transparency-bottom: 0.6;
-  $vertical-angle: 0deg;
-  $image-gradient-color-left: grey;
-  $transparency-left: 0.8;
-  $image-gradient-color-right: black;
-  $transparency-right: 0.8;
-  $horizontal-angle: 90deg;
-}
-
-
 .image-gradient-dynamic.intro .copy {
 
 	h1 { color: #fff; }
