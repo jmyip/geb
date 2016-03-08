@@ -27,7 +27,7 @@ header.navigation {
 
   .navigation-wrapper {
     @include clearfix;
-    @include outer-container;
+    //@include outer-container;
     position: relative;
     z-index: 9999;
   }
@@ -39,7 +39,7 @@ header.navigation {
     padding-right: 2em;
 
     @include media ($horizontal-bar-mode) {
-      padding-left: 0;
+      padding-left: $navigation-padding;
     }
 
     img {

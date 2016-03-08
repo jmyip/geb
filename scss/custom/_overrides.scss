@@ -11,25 +11,9 @@ html {
 // full height stuff
 html,
 body,
-section,
-.vertically-centred-container
+section
 	{
     position: relative;
-}
-
-
-html,
-body,
-.full-height,
-.vertically-centred-container{
-    height: 100%;
-}
-
-.vertically-centred {
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
 }
 
 body {margin: 0; background-color: #ccc;}
@@ -41,7 +25,6 @@ body {margin: 0; background-color: #ccc;}
 	@include outer-container(1500px);
 	background-color: #fff;
 	position: relative;
-	height: 100%;
 }
 
 .sub-navigation {
@@ -50,7 +33,6 @@ body {margin: 0; background-color: #ccc;}
 	width:100%;
 
 	.sub-navigation-wrapper {
-		@include outer-container;
 
 		h1 {
 			display: inline-block;
@@ -81,6 +63,7 @@ body {margin: 0; background-color: #ccc;}
   z-index: 9999;
   opacity: 0.98;
   border-bottom: 1px solid #ccc;
+  max-width: 1500px;
 }
 
 //sticky nav
