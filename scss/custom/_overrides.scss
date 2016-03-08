@@ -165,11 +165,16 @@ table {
 	}
 }
 
-
 .contact {
-	width: 33%;
+	width: 100%;
 	position: relative;
 	float: left;
+}
+
+@media screen and (min-width:768px) {
+	.contact {
+		width: 33%;
+	}
 }
 
 
