@@ -1,10 +1,6 @@
 #map_canvas {
   height: 550px;
   width: 100%;
-
-  @include media($large-screen) {
-   height: 250px;
-  }
 }
 
 #map_canvas img {
