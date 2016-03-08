@@ -1,0 +1,115 @@
+
+/* Source: https://github.com/davist11/jQuery-Stickem */
+
+.process {
+	position: relative;
+	float: left;
+	width: 100%;
+	margin: 5px 0;
+}
+
+.row {
+	position: relative;
+	height: 100%;
+	background-color: #f5f5f0;
+}
+
+.row:after {
+	clear: both;
+	content: ".";
+	display: block;
+	height: 0;
+	visibility: hidden;
+}
+
+.row:last-child {
+	height:450px;
+	///background-image: url('https://c.stocksy.com/a/8kv200/z0/698624.jpg');
+	background-size: 100%;
+	margin-top: 5px;
+}
+
+.content {
+	position: relative;
+	float: right;
+	width: 100%;
+	padding:2em;
+}
+
+.aside {
+	width: 100%;
+	padding:2em;
+}
+
+
+.aside h3 {
+	font-size: 2em;
+}
+
+
+
+@media screen and (min-width: 900px){
+
+	.content {
+		width: 50%;
+		font-size: 1.25em;
+		color: #fff;
+		padding:0 10%;
+		background-size: 50%;
+		background-attachment: fixed;
+		background-color: #000;
+		text-align: center;
+	}
+
+
+	.content p {
+		margin:200px 0;
+	}
+
+	.row:nth-child(1) {
+		.content {
+			background-image: url('https://c.stocksy.com/a/nde200/z0/632883.jpg');
+		}
+	}
+	.row:nth-child(2) {
+		.content {
+			background-image: url('https://c.stocksy.com/a/6Sb000/z0/143970.jpg');
+		}
+	}
+
+	.row:nth-child(3) {
+		.content {
+			background-image: url('https://c.stocksy.com/a/ChF100/z0/298666.jpg');
+		}
+	}
+
+	.row:nth-child(4) {
+		.content {
+			background-image: url('https://c.stocksy.com/a/8SP200/z0/574500.jpg');
+		}
+	}
+
+
+	.aside {
+		height: auto;
+		width: 50%;
+		padding:160px 100px;
+		overflow: hidden;
+	}
+
+
+	.aside h3 {
+		font-size: 4em;
+	}
+
+	.stickit {
+		position: fixed;
+		top:0;
+		max-width: 750px;
+	}
+
+	.stickit-end {
+		bottom: 1000px;
+	}
+
+}
