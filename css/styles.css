@@ -1203,6 +1203,12 @@ table {
 .center {
   text-align: center; }
 
+#contact p {
+  max-width: 70%;
+  margin: auto; }
+#contact h3 {
+  margin-top: 50px; }
+
 #products {
   background-color: #f0f0f0; }
 
