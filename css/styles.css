@@ -1169,11 +1169,17 @@ section {
 
 #varieties .variety {
   max-width: 75%;
-  margin: 50px auto; }
+  margin: 50px auto;
+  border-top: 3px solid #000; }
+  #varieties .variety h3 {
+    font-size: 1.5em;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-top: 1em; }
   #varieties .variety table td {
     vertical-align: top;
     padding: 10px 20px 10px 0;
-    font-size: 0.8em; }
+    font-size: 0.9em; }
 #varieties .button-hollow {
   padding: 8px 10px;
   font-size: 0.8em;
