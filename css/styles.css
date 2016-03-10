@@ -1235,6 +1235,14 @@ table {
 
 #overview p {
   font-size: 1.5em; }
+#overview .approach {
+  width: 33.33%;
+  float: left;
+  padding: 5em 2.5em 5em 5em;
+  text-align: left;
+  background-color: #f8f8f8; }
+  #overview .approach p {
+    font-size: 1.2em; }
 
 .overlay:after {
   content: "";
