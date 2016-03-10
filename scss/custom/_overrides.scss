@@ -178,17 +178,32 @@ table {
 		font-size: 1.5em;
 	}
 
-	.approach {
-		width: 33.33%;
+	.two-col, .three-col {
 		float: left;
 		padding: 5em 2.5em 5em 5em;
 		text-align: left;
-		background-color: #f8f8f8;
 
 		p {
-			font-size: 1.2em;
+			font-size: 1em;
 		}
+
 	}
+
+	.three-col {
+		width: 33.33%;
+	}
+
+	.two-col {
+		width: 50%;
+	}
+
+}
+
+
+.background-grey {
+	background-color: #f8f8f8;
+	position: relative;
+	float: left;
 }
 
 	.overlay:after {

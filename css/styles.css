@@ -1239,14 +1239,21 @@ table {
 
 #overview p {
   font-size: 1.5em; }
-#overview .approach {
-  width: 33.33%;
+#overview .two-col, #overview .three-col {
   float: left;
   padding: 5em 2.5em 5em 5em;
-  text-align: left;
-  background-color: #f8f8f8; }
-  #overview .approach p {
-    font-size: 1.2em; }
+  text-align: left; }
+  #overview .two-col p, #overview .three-col p {
+    font-size: 1em; }
+#overview .three-col {
+  width: 33.33%; }
+#overview .two-col {
+  width: 50%; }
+
+.background-grey {
+  background-color: #f8f8f8;
+  position: relative;
+  float: left; }
 
 .overlay:after {
   content: "";
