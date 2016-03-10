@@ -1147,6 +1147,10 @@ body {
       .sub-navigation .sub-navigation-wrapper ul li a {
         text-decoration: none;
         color: #999; }
+    .sub-navigation .sub-navigation-wrapper ul .cta a {
+      color: #fff;
+      padding: 5px 10px;
+      background-color: orange; }
 
 .sub-navigation.sticky {
   position: fixed;
