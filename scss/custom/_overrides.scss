@@ -84,6 +84,29 @@ section {
 	}
 }
 
+#varieties {
+
+	.variety {
+		max-width: 75%;
+		margin: 50px auto;
+
+		table {
+
+			td {
+				vertical-align: top;
+				padding: 10px 20px 10px 0;
+				font-size: 0.8em;
+			}
+		}
+	}
+
+	.button-hollow {
+		padding: 8px 10px;
+		font-size: 0.8em;
+		letter-spacing: 3px;
+	}
+}
+
 
 .active {
 	a {
