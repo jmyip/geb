@@ -1246,10 +1246,15 @@ table {
   #overview .two-col p, #overview .three-col p {
     font-size: 1em; }
 #overview .three-col {
-  width: 33.33%; }
+  width: 100%; }
 #overview .two-col {
-  width: 50%; }
+  width: 100%; }
 
+@media screen and (min-width: 600px) {
+  #overview .three-col {
+    width: 33.33%; }
+  #overview .two-col {
+    width: 50%; } }
 .background-grey {
   background-color: #f8f8f8;
   position: relative;

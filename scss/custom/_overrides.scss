@@ -172,7 +172,13 @@ table {
 	}
 }
 
+
+
 #products {background-color: #f0f0f0;}
+
+
+
+
 #overview {
 	p{
 		font-size: 1.5em;
@@ -190,11 +196,27 @@ table {
 	}
 
 	.three-col {
-		width: 33.33%;
+		width: 100%;
 	}
 
 	.two-col {
-		width: 50%;
+		width: 100%;
+	}
+
+}
+
+@media screen and (min-width: 600px) {
+
+	#overview {
+
+		.three-col {
+			width: 33.33%;
+		}
+
+		.two-col {
+			width: 50%;
+		}
+
 	}
 
 }
